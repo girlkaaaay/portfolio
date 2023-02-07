@@ -1,0 +1,15 @@
+body {
+  background-color: $bgc;
+}
+
+.fn {
+  @include fontAndColor;
+}
+
+.ln {
+  @include primaryAndFont;
+}
+
+.title {
+  @include fontAndColor;
+}

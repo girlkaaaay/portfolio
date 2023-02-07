@@ -1,0 +1,9 @@
+@mixin fontAndColor() {
+  font-family: "Inter", sans-serif;
+  color: $font-color;
+}
+
+@mixin primaryAndFont() {
+  color: $primary-color;
+  font-family: "Inter", sans-serif;
+}

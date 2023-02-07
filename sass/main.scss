@@ -1,84 +1,10 @@
+@import "abstracts/mixins";
 @import "abstracts/variables";
 
-body {
-  background-color: #000;
-}
+@import "base/buttons";
+@import "base/typography";
 
-.header {
-  border: 3px solid black;
-}
+@import "layout/footer";
+@import "layout/header";
 
-.navbar {
-  border: 3px solid red;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  border: 2px solid orange;
-  height: auto;
-  width: auto;
-}
-
-img {
-  border: 3px solid blue;
-  height: 6rem;
-  width: 6rem;
-  object-fit: contain;
-}
-
-ul {
-  border: 3px solid yellowgreen;
-  height: 2rem;
-  list-style-type: none;
-  text-decoration: none;
-  display: flex;
-  padding-left: 2px;
-}
-
-li {
-  padding: 8px;
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-  letter-spacing: 2px;
-  color: #fff;
-}
-
-a {
-  color: #fff;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-hr {
-  padding-top: 3px;
-  background: $primary-color;
-}
-
-.fn {
-  font-family: "Inter", sans-serif;
-  color: #fff;
-}
-
-.ln {
-  color: $primary-color;
-  font-family: "Inter", sans-serif;
-}
-
-.title {
-  font-family: "Inter", sans-serif;
-  color: #fff;
-}
-
-.chat {
-  padding: 5px 10px 5px 10px;
-  font-size: large;
-  border: 3px solid $primary-color;
-  border-radius: 15px;
-  color: $primary-color;
-  background-color: transparent;
-  font-family: "Inter", sans-serif;
-}
+@import "pages/home";

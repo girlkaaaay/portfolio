@@ -1,0 +1,8 @@
+.chat {
+  @include primaryAndFont;
+  padding: 5px 10px 5px 10px;
+  font-size: large;
+  border: 3px solid $primary-color;
+  border-radius: 15px;
+  background-color: transparent;
+}

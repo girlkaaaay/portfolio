@@ -1,8 +1,14 @@
-body {
-  background-color: #000; }
+.chat {
+  color: #e58c17;
+  font-family: "Inter", sans-serif;
+  padding: 5px 10px 5px 10px;
+  font-size: large;
+  border: 3px solid #e58c17;
+  border-radius: 15px;
+  background-color: transparent; }
 
 .header {
-  border: 3px solid black; }
+  border: 3px solid pink; }
 
 .navbar {
   border: 3px solid red;
@@ -30,11 +36,11 @@ ul {
   padding-left: 2px; }
 
 li {
+  font-family: "Inter", sans-serif;
+  color: #fff;
   padding: 8px;
   font-size: 20px;
-  font-family: "Inter", sans-serif;
-  letter-spacing: 2px;
-  color: #fff; }
+  letter-spacing: 2px; }
 
 a {
   color: #fff; }
@@ -45,6 +51,9 @@ a:link {
 hr {
   padding-top: 3px;
   background: #e58c17; }
+
+body {
+  background-color: #000; }
 
 .fn {
   font-family: "Inter", sans-serif;
@@ -57,12 +66,3 @@ hr {
 .title {
   font-family: "Inter", sans-serif;
   color: #fff; }
-
-.chat {
-  padding: 5px 10px 5px 10px;
-  font-size: large;
-  border: 3px solid #e58c17;
-  border-radius: 15px;
-  color: #e58c17;
-  background-color: transparent;
-  font-family: "Inter", sans-serif; }
