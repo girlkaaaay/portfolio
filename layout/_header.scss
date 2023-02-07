@@ -1,0 +1,52 @@
+.header {
+  border: 3px solid pink;
+}
+
+.navbar {
+  border: 3px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  border: 2px solid orange;
+  height: auto;
+  width: auto;
+}
+
+img {
+  border: 3px solid blue;
+  height: 6rem;
+  width: 6rem;
+  object-fit: contain;
+}
+
+ul {
+  border: 3px solid yellowgreen;
+  height: 2rem;
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  padding-left: 2px;
+}
+
+li {
+  @include fontAndColor;
+  padding: 8px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+a {
+  color: $font-color;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+hr {
+  padding-top: 3px;
+  background: $primary-color;
+}
